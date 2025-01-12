@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "rn-template",
+    "slug": "rn-template",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/splash-icon.png",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#221122"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.anonymous.rntemplate"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/splash-icon.png",
+        "backgroundColor": "#221122"
+      },
+      "package": "com.anonymous.rntemplate"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#000000",
+          "image": "./assets/splash-icon.png"
+        }
+      ]
+    ]
+  }
+}
